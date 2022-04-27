@@ -1,0 +1,90 @@
+@font-face {
+	font-family: type;
+	src: url(../fonts/cutivemonoreg.ttf);
+}
+
+@font-face {
+	font-family: name;
+	src: url(../fonts/latoregular.ttf);
+}
+
+body{
+    background: #FFF6E7;
+}
+
+#wrap{
+    /* border: solid 1px black; */
+    display: flex;
+    width: 95vw;
+    height: 100vh;
+}
+
+#sidebar{
+    /* border: solid 1px pink; */
+    width: 100vw; 
+    height: 10vh;
+    font-family: type;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+
+nav{
+    /* border: solid 1px blue; */
+    width: 100vw; 
+    height: 10vh;
+    font-family: type;
+    position:fixed;
+    margin-left: none;
+    padding: none;
+}
+
+nav ul{
+    /* border: solid 1px green; */
+    list-style: none;
+    padding: 0px;
+}
+
+nav ul a{
+    /* border: solid 1px red; */
+    height:30px;
+    text-decoration: none;
+}
+
+a:link{
+    color: black; ;
+}
+
+a:hover{
+    text-decoration: underline ;
+}
+
+a:visited{
+    color: black ;
+}
+
+#pictures{
+    /* border: solid 1px purple; */
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#images{
+    /* border: solid 1px yellowgreen; */
+    margin-top: 10vh;
+    height:30vh;
+    width: 95vw;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#socialmedia{
+    display:none;
+}
